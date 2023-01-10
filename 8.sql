@@ -46,7 +46,6 @@ ALTER TABLE "authorBooks_book" ADD FOREIGN KEY ("authorBooks_book_id") REFERENCE
 
 ALTER TABLE "authorBooks_book" ADD FOREIGN KEY ("book_id") REFERENCES "book" ("id");
 
-
 CREATE TABLE "authorBooks_author" (
   "authorBooks_author_id" int NOT NULL,
   "author_id" int NOT NULL,
